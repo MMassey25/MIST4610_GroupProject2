@@ -24,6 +24,26 @@ We chose to find the growth rates from 1999-2017, and then predict them over the
 
 
 # Analysis and Results
+From 1999-2017 it was found that California, Florida, Texas, New York, and Pennsylvania had the 5 highest number of death related to Cancer. Inversely, Alaska, Wyoming, Washington D.C, Vermont, and North Dakota had the 5 lowest amounts of cancer related deaths in the United States. This graph is heavily skewed to the left side due to one significant factor. 
+
+One main error contributing to the heavily left skewed graph would the population difference between each state. The higher the population, predominantly more the deaths. 
+To eliminate the bias, we took the 2010 deaths related to cancer for each state and based them per 100,000 people. So instead of Georgia having 15435 deaths in 2010, they have 159.33 deaths per 100,000 people.
+California had the highest cancer related deaths, but West Virginia had the most cancer related deaths per 100,000 people.
+Alaska had the lowest cancer related deaths, but Utah ended up with the lowest deaths per 100,000.
+
+Why West Virginia and Utah?
+The biggest difference between the US average and the West Virginia average comes around the idea of lung cancer. West Virginia has the second highest tobacco use rate in the united states. However on the opposite end, Utah has the lowest rate of tobacco use which could point to why Utah has the lowest amount of cancer deaths per 100,000 people.
+
+California, Texas are two of the most populous states, which makes sense why they are on top of this list. However, Colorado is the 21st most populous state in the US, yet it ranked among the highest in the forecasted suicide rates.
+
+Population is not a contributor to bias because we are looking at growth rate of suicides across multiple years.
+When looking at the visualization and the growth rate by state, a way to test the reliability of the growth rate is looking at a forecast trend line. So we took the estimated number of deaths in 2022 per the forecast line, an compared it to the actual number of deaths in 2022 caused by suicide. 
+Comparing the actual results of 2022 to the projected results
+38 over estimated, 12 underestimated, and 1 exactly the same.
+Nevada ended up having the exact same predicted value to actual value in 2022, showing the reliability  and accuracy of the Nevada trend line.
+In this scenario, overestimated is much better than underestimated in real life comparison.
+
+
 
 
 # Tableau Packaged Workbook
